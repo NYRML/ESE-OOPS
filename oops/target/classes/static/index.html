@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Employee Management CRUD App</h2>
+
+<div class="form">
+    <input type="text" id="name" placeholder="Employee Name">
+    <input type="text" id="department" placeholder="Department">
+    <button onclick="addEmployee()">Add Employee</button>
+</div>
+
+<h3>Employee List</h3>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody id="employeeTable"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
